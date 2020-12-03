@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/components/animateroute.dart';
-import 'package:flutter_app/components/applocalizations.dart';
-import 'package:flutter_app/pages/question.dart';
 
 class Mobilelist extends StatelessWidget {
   final name;

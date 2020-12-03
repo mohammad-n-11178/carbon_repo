@@ -78,7 +78,7 @@ class MyDrawer extends StatelessWidget {
         ),
         ListTile(
           title: Text(
-            AppLocalizations.of(context).translate("Log in"),
+            AppLocalizations.of(context).translate("active code"),
             style: TextStyle(
               fontSize: 20,
               color: Colors.grey[900],
