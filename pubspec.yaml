@@ -1,5 +1,5 @@
-name: flutter_app
-description: A new Flutter application.
+name: Carbon
+description: quiz app
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -70,8 +70,8 @@ flutter:
   fonts:
     - family: Cairo
       fonts:
-        - asset: fonts/Cairo-Regular.ttf
-        - asset: fonts/Cairo-Bold.ttf
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
           weight: 100
           
     # - family: Cairo

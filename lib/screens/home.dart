@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/widgets/subjectslist.dart';
-import 'package:flutter_app/widgets/mydrawer.dart';
+import 'package:Carbon/widgets/subjectslist.dart';
+import 'package:Carbon/widgets/mydrawer.dart';
 
 class Home extends StatefulWidget {
   @override

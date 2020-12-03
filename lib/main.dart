@@ -1,19 +1,19 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:flutter_app/screens/subjects/light.dart';
-import 'package:flutter_app/screens/subjects/solid.dart';
+import 'package:Carbon/screens/subjects/light.dart';
+import 'package:Carbon/screens/subjects/solid.dart';
 import 'screens/login.dart';
 import 'services/applocalizations.dart';
 import 'screens/home.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'screens/setting.dart';
-import 'package:flutter_app/screens/subjects/analystics2.dart';
-import 'package:flutter_app/screens/subjects/ch1.dart';
-import 'package:flutter_app/screens/subjects/ch2.dart';
-import 'package:flutter_app/screens/subjects/english1.dart';
-import 'package:flutter_app/screens/subjects/english2.dart';
-import 'package:flutter_app/screens/subjects/english3.dart';
-import 'package:flutter_app/screens/subjects/english4.dart';
+import 'package:Carbon/screens/subjects/analystics2.dart';
+import 'package:Carbon/screens/subjects/ch1.dart';
+import 'package:Carbon/screens/subjects/ch2.dart';
+import 'package:Carbon/screens/subjects/english1.dart';
+import 'package:Carbon/screens/subjects/english2.dart';
+import 'package:Carbon/screens/subjects/english3.dart';
+import 'package:Carbon/screens/subjects/english4.dart';
 
 void main() => runApp(MyApp());
 
