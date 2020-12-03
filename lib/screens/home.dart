@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/components/subjectslist.dart';
-import 'package:flutter_app/components/applocalizations.dart';
+import 'package:flutter_app/widgets/subjectslist.dart';
+import 'package:flutter_app/widgets/mydrawer.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -10,16 +10,18 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    var mdw = MediaQuery.of(context).size.width;
+    // var mdw = MediaQuery.of(context).size.width;
     return Directionality(
         textDirection: TextDirection.rtl,
         child: SafeArea(
             child: Scaffold(
                 backgroundColor: Colors.grey[50],
                 appBar: AppBar(
+                  
                   title: Text('المواد'),
                   centerTitle: true,
                 ),
+                drawer: MyDrawer(),
                 body: ListView.builder(
                   itemCount: mobilelist.length,
                   itemBuilder: (context, i) {

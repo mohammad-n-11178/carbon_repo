@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/components/applocalizations.dart';
+import 'package:flutter_app/services/applocalizations.dart';
 
 class MyDrawer extends StatelessWidget {
   @override

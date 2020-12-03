@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_app/pages/support_login.dart';
+import 'package:flutter_app/screens/support_login.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -8,7 +8,7 @@ class Login extends StatefulWidget {
 }
 
 class _LoginState extends State<Login> {
-  bool _rememberMe = false;
+  // bool _rememberMe = false;
 
   Widget _buildEmailTF() {
     return Column(
