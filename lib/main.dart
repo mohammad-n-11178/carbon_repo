@@ -1,19 +1,19 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:flutter_app/pages/subjects/light.dart';
-import 'package:flutter_app/pages/subjects/solid.dart';
-import 'pages/login.dart';
-import 'components/applocalizations.dart';
-import 'pages/home.dart';
+import 'package:flutter_app/screens/subjects/light.dart';
+import 'package:flutter_app/screens/subjects/solid.dart';
+import 'screens/login.dart';
+import 'services/applocalizations.dart';
+import 'screens/home.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'pages/setting.dart';
-import 'package:flutter_app/pages/subjects/analystics2.dart';
-import 'package:flutter_app/pages/subjects/ch1.dart';
-import 'package:flutter_app/pages/subjects/ch2.dart';
-import 'package:flutter_app/pages/subjects/english1.dart';
-import 'package:flutter_app/pages/subjects/english2.dart';
-import 'package:flutter_app/pages/subjects/english3.dart';
-import 'package:flutter_app/pages/subjects/english4.dart';
+import 'screens/setting.dart';
+import 'package:flutter_app/screens/subjects/analystics2.dart';
+import 'package:flutter_app/screens/subjects/ch1.dart';
+import 'package:flutter_app/screens/subjects/ch2.dart';
+import 'package:flutter_app/screens/subjects/english1.dart';
+import 'package:flutter_app/screens/subjects/english2.dart';
+import 'package:flutter_app/screens/subjects/english3.dart';
+import 'package:flutter_app/screens/subjects/english4.dart';
 
 void main() => runApp(MyApp());
 
