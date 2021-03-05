@@ -1,3 +1,5 @@
+import 'package:Carbon/quiz.dart';
+import 'package:Carbon/quiz_app.dart';
 import 'package:flutter/material.dart';
 
 class Analystics2 extends StatefulWidget {
@@ -39,7 +41,9 @@ class _Analystics2State extends State<Analystics2> {
                   ),
                 ),
                 ListTile(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.of(context).pushNamed("Quiz_app");
+                  },
                   title: Text("000"),
                   leading: ExcludeSemantics(
                     child: CircleAvatar(

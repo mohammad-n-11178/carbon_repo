@@ -1,4 +1,5 @@
 import 'dart:ui';
+import 'package:Carbon/quiz_app.dart';
 import 'package:flutter/material.dart';
 import 'package:Carbon/screens/subjects/light.dart';
 import 'package:Carbon/screens/subjects/solid.dart';
@@ -91,6 +92,9 @@ class MyApp extends StatelessWidget {
           "Solid_page": (context) {
             return Solid();
           },
+          "Quiz_app": (context) {
+            return QuizApp();
+          }
         }
         //end
         );
