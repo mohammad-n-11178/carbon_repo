@@ -45,7 +45,7 @@ class _HomeState extends State<Home> {
       'name': 'الكيمياء العامة 1',
       'year': ' الثانية',
       'section': ' الكيمياء',
-      'page': "ch1_page"         //rote
+      'page': "Quiz_app"         //rote
     },
     {
       'name': 'الكيمياء العامة 2',
