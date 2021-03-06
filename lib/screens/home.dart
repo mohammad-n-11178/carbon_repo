@@ -17,7 +17,6 @@ class _HomeState extends State<Home> {
             child: Scaffold(
                 backgroundColor: Colors.grey[50],
                 appBar: AppBar(
-                  
                   title: Text('المواد'),
                   centerTitle: true,
                 ),
@@ -39,13 +38,13 @@ class _HomeState extends State<Home> {
       'name': 'الكيمياء التحليلية 2',
       'year': ' الثانية',
       'section': ' الكيمياء',
-      'page': "analystics2_page"   //route
+      'page': "analystics2_page" //route
     },
     {
       'name': 'الكيمياء العامة 1',
       'year': ' الثانية',
       'section': ' الكيمياء',
-      'page': "Quiz_app"         //rote
+      'page': "Quiz_app" //rote
     },
     {
       'name': 'الكيمياء العامة 2',
