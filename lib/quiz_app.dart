@@ -12,7 +12,7 @@ class _QuizAppState extends State<QuizApp> {
 
   void answerQuestion() {
     setState(() {
-      if (_questionIndex <= _question.length -1) {
+      if (_questionIndex <= _question.length - 1) {
         _questionIndex += 1;
       }
     });
@@ -20,9 +20,15 @@ class _QuizAppState extends State<QuizApp> {
     print("answer chosen");
   }
 
-  final _question = [
-    "what\'s your favorite color?",
-    "what\'s your favorite food?"
+  final List<Map<String, Object>> _question = [
+    {
+      "questionText": "what\'s your favorite color?",
+      "answers": ["black", "red", "yellow", "white"]
+    }, //index 0
+    {
+      "questionText": "what\'s your favorite food?",
+      "answers": ["rice", "tomatto", "yougert", "apple"]
+    }, //index 1
   ];
 
   @override
@@ -35,17 +41,16 @@ class _QuizAppState extends State<QuizApp> {
             SizedBox(
               height: 40,
             ),
-            Question(_question[_questionIndex]),
+            Question(_question[_questionIndex]["questionText"]),
             Divider(
               thickness: 0.2,
             ),
-            SizedBox(
-              height: 10,
-            ),
-            Answer(answerQuestion, "11"),
-            Answer(answerQuestion, "22"),
-            Answer(answerQuestion, "33"),
-            Answer(answerQuestion, "44"),
+            SizedBox(height: 10),
+            //here we will convert the object(list) to strings   , and it will return each one as _answer
+            ...(_question[_questionIndex]["answers"] as List<String>)
+                .map((_answer) {
+              return Answer(answerQuestion, _answer);
+            }),
           ],
         )),
       ),
