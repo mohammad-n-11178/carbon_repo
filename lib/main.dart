@@ -1,20 +1,20 @@
 import 'dart:ui';
-import 'package:Carbon/quiz_app.dart';
+import 'package:carbon/quiz_app.dart';
 import 'package:flutter/material.dart';
-import 'package:Carbon/screens/subjects/light.dart';
-import 'package:Carbon/screens/subjects/solid.dart';
+import 'package:carbon/screens/subjects/light.dart';
+import 'package:carbon/screens/subjects/solid.dart';
 import 'screens/login.dart';
 import 'services/applocalizations.dart';
 import 'screens/home.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'screens/setting.dart';
-import 'package:Carbon/screens/subjects/analystics2.dart';
-import 'package:Carbon/screens/subjects/ch1.dart';
-import 'package:Carbon/screens/subjects/ch2.dart';
-import 'package:Carbon/screens/subjects/english1.dart';
-import 'package:Carbon/screens/subjects/english2.dart';
-import 'package:Carbon/screens/subjects/english3.dart';
-import 'package:Carbon/screens/subjects/english4.dart';
+import 'package:carbon/screens/subjects/analystics2.dart';
+import 'package:carbon/screens/subjects/ch1.dart';
+import 'package:carbon/screens/subjects/ch2.dart';
+import 'package:carbon/screens/subjects/english1.dart';
+import 'package:carbon/screens/subjects/english2.dart';
+import 'package:carbon/screens/subjects/english3.dart';
+import 'package:carbon/screens/subjects/english4.dart';
 
 void main() => runApp(MyApp());
 
@@ -96,7 +96,7 @@ class MyApp extends StatelessWidget {
             return QuizApp();
           }
         }
-        //end
+        //end  
         );
   }
 }

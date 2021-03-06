@@ -1,5 +1,3 @@
-import 'package:Carbon/quiz.dart';
-import 'package:Carbon/quiz_app.dart';
 import 'package:flutter/material.dart';
 
 class Analystics2 extends StatefulWidget {
